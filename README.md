@@ -1,5 +1,7 @@
 # fork-ts-checker-notifier-webpack-plugin
 
+workflow test
+
 [![npm Version](https://img.shields.io/npm/v/fork-ts-checker-notifier-webpack-plugin.svg)](https://www.npmjs.com/package/fork-ts-checker-notifier-webpack-plugin)
 [![build](https://travis-ci.com/johnnyreilly/fork-ts-checker-notifier-webpack-plugin.svg?branch=master)](https://travis-ci.com/johnnyreilly/fork-ts-checker-notifier-webpack-plugin/)
 [![node version](https://img.shields.io/node/v/fork-ts-checker-notifier-webpack-plugin.svg)](https://www.npmjs.com/package/fork-ts-checker-notifier-webpack-plugin)
