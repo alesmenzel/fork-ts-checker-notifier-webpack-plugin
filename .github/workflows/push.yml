@@ -5,6 +5,9 @@ name: build and test
 jobs:
   build_and_test:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        forkTsCheckerWebpackPluginVersion: [6, 7]
     steps:
       - uses: actions/checkout@v1
 
@@ -18,6 +21,9 @@ jobs:
 
       - name: install
         run: yarn install
+        
+      - name: install fork-ts-checker-webpack-plugin
+        run: yarn add fork-ts-checker-webpack-plugin@${{ matrix.forkTsCheckerWebpackPluginVersion }}
 
       - name: build
         run: yarn build
